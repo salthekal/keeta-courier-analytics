@@ -1,0 +1,42 @@
+# Real operational data — never commit
+data/*.xlsx
+data/*.xls
+data/*.csv
+data/*.tsv
+data/*.parquet
+!data/sample_*
+
+# Derived large outputs (regenerable)
+outputs/findings.json
+outputs/pipeline_output.txt
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+*.egg-info/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Jupyter
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+
+# Virtual envs
+venv/
+env/
+.venv/
+ENV/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+.DS_Store
+
+# OS
+Thumbs.db
