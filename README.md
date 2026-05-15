@@ -1,4 +1,4 @@
-# Keeta Courier Analytics
+![Keeta Courier Analytics](outputs/banner.png)
 
 **Multi-month operational machine learning on real food-delivery courier data**
 
